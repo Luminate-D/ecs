@@ -1,0 +1,19 @@
+{
+  "name": "@luminate_d/ecs",
+  "version": "1.0.0",
+  "description": "Object-Oriented EntityComponentSystem",
+  "main": "src/module.js",
+  "types": "typings.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luminate-D/ecs.git"
+  },
+  "keywords": [],
+  "author": "Luminate-D",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luminate-D/ecs/issues"
+  },
+  "homepage": "https://github.com/Luminate-D/ecs#readme"
+}
