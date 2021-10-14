@@ -1,12 +1,24 @@
 # EntityComponentSystem
 Install using this command:
 ```sh
-$ npm install @luminate-d/ecs
+$ npm install @luminate_d/ecs
+```
+
+### Importing in browser
+Use script tag to import browser build:
+```html
+<script src="node_modules/@luminate_d/ecs/build/browser.js"></script>
+```
+
+Use by accessing ECS globals variable:
+```js
+const ecs = new ECS.EntityComponentSystem();
+// ...
 ```
 
 ### Usage example
 ```js
-const ECS = require('@luminate-d/ecs'); // Import library
+const ECS = require('@luminate_d/ecs'); // Import library
 
 // Create custom component
 class MyComponent extends ECS.Component {

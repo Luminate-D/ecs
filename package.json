@@ -1,10 +1,12 @@
 {
   "name": "@luminate_d/ecs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Object-Oriented EntityComponentSystem",
   "main": "src/module.js",
   "types": "typings.d.ts",
-  "scripts": {},
+  "scripts": {
+    "build": "browserify src/module.js --s ECS > build/browser.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Luminate-D/ecs.git"
