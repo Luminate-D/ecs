@@ -10,7 +10,7 @@ module.exports = class EntityComponentSystem {
     update(deltaTime) {
         if(isNaN(deltaTime)) throw new Error('deltaTime must be a number, got:' + typeof deltaTime);
         for(let system of this.systems) {
-            system.update(deltaTime, this.getEntities(system.filter));
+            system.update.bind(system)(deltaTime, this.getEntities(system.filter));
         }
     }
 

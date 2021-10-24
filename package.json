@@ -1,6 +1,6 @@
 {
   "name": "@luminate_d/ecs",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Object-Oriented EntityComponentSystem",
   "main": "src/module.js",
   "types": "typings.d.ts",
